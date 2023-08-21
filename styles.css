@@ -4,4 +4,11 @@
 <link rel = "stylesheet" type = "text/css" href=""styles.css">
 <h1 style="color:blue;">A Blue Heading</h1>
 
+.container img {
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
 </head>
