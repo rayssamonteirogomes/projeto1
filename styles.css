@@ -1,41 +1,77 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: HoneyDew;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    vertical-align: middle;
+  }
+  
+  .title {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .restaurant {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .restaurant a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .restaurant img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+
+
+.restaurant a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s; 
 }
 
-.restaurant-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.restaurant {
-  width: calc(33.33% - 20px);
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 15px;
-  text-align: center;
-}
-
-.restaurant img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.restaurant h2 {
-  margin-top: 10px;
-  font-size: 18px;
-}
-
-.ranking {
-  display: block;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 5px;
+.restaurant a:hover {
+  color: YellowGreen; 
 }
