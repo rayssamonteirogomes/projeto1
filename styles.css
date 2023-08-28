@@ -44,9 +44,9 @@
   }
   
   .restaurant img {
-    max-width: 50;
-    height: 50;
-    border-radius: 4;
+    max-width: 250%;
+    height: 50px;
+    border-radius: 4px;
   }
   
   .footer {
