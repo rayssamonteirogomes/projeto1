@@ -1,14 +1,28 @@
-
-<head>
-<tittle>...</titlle>
-<link rel = "stylesheet" type = "text/css" href=""styles.css">
-<h1 style="color:blue;">A Blue Heading</h1>
-
-. imgagem {
-    max-width:50px;
-    max-height:50px;
-    width: auto;
-    height: auto;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-</head>
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.restaurant {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.restaurant img {
+  max-width: 100%;
+  height: auto;
+}
+
+.restaurant h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
