@@ -1,11 +1,16 @@
-.galeria > img {
-  width: 100px;
-  height: 100px;
-
-  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+.paginas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.galeria > img.img-ativa {
+.paginas > .pagina {
   width: 50%;
-  height: 500%;
+  height: 50%;
+}
+
+.paginas > .pagina img {
+  width: 100%;
+  height: 100%;
 }
