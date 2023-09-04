@@ -1,16 +1,50 @@
 .paginas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.paginas > .pagina {
-  width: 40%;
-  height: 40%;
-}
-
-.paginas > .pagina img {
-  width: 50%;
-  height: 50%;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paginas > .pagina {
+    width: 20%;
+    height: 20%;
+  }
+  
+  .paginas > .pagina img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circulo-vermelho {
+    border-radius: 50%;
+    border: 2px solid #F00;
+  }
+  
+  .quadrado-verde {
+    border-radius: 5px;
+    border: 2px solid #00FF00;
+  }
+  
+  .paginas > .pagina:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+  
+  .paginas > .pagina:nth-child(2) {
+    transform: rotate(-90deg);
+  }
+  
+  .paginas > .pagina:nth-child(3) {
+    transform: rotate(-135deg);
+  }
+  
+  .paginas > .pagina:nth-child(4) {
+    transform: rotate(135deg);
+  }
+  
+  .paginas > .pagina:nth-child(5) {
+    transform: rotate(90deg);
+  }
+  
+  .paginas > .pagina:nth-child(6) {
+    transform: rotate(45deg);
+  }
