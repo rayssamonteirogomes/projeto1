@@ -1,11 +1,11 @@
 .galeria > img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 }
 
 .galeria > img.img-ativa {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 500%;
 }
