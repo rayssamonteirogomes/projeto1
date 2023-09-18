@@ -1,50 +1,77 @@
-.paginas {
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: HoneyDew;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    vertical-align: middle;
+  }
+  
+  .title {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .restaurants-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .restaurant {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .restaurant a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .restaurant img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo-title {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .paginas > .pagina {
-    width: 20%;
-    height: 20%;
+  .logo {
+    margin-right: 10px;
   }
-  
-  .paginas > .pagina img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .circulo-vermelho {
-    border-radius: 50%;
-    border: 2px solid #F00;
-  }
-  
-  .quadrado-verde {
-    border-radius: 5px;
-    border: 2px solid #00FF00;
-  }
-  
-  .paginas > .pagina:nth-child(1) {
-    transform: rotate(-45deg);
-  }
-  
-  .paginas > .pagina:nth-child(2) {
-    transform: rotate(-90deg);
-  }
-  
-  .paginas > .pagina:nth-child(3) {
-    transform: rotate(-135deg);
-  }
-  
-  .paginas > .pagina:nth-child(4) {
-    transform: rotate(135deg);
-  }
-  
-  .paginas > .pagina:nth-child(5) {
-    transform: rotate(90deg);
-  }
-  
-  .paginas > .pagina:nth-child(6) {
-    transform: rotate(45deg);
-  }
+
+
+.restaurant a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s; 
+}
+
+.restaurant a:hover {
+  color: YellowGreen; 
+}
