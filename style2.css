@@ -1,77 +1,54 @@
-.body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: HoneyDew;
-  }
-  
-  .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .logo img {
-    vertical-align: middle;
-  }
-  
-  .title {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  .restaurants-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
-  }
-  
-  .restaurant {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-  }
-  
-  .restaurant a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .restaurant img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  .logo-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo {
-    margin-right: 10px;
-  }
-
-
-.restaurant a {
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.3s; 
+#galeria > div {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.restaurant a:hover {
-  color: YellowGreen; 
+.foto img {
+  width: 100%;
+  display: block;
+  border: 5px solid #034918;
+  object-fit: cover;
+  height: 200px; 
+}
+
+.detalhes {
+  display: none;
+}
+
+#galeria .foto:target {
+  position: absolute;
+  width: 50%;
+  top: 15px;
+  left: 25%;
+  padding: 10px;
+  border: solid 1px #034736;
+  background: #DCDCDC;
+}
+
+.foto:target .detalhes {
+  display: block;
+}
+
+.relato {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.foto:target img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background-color: #014720;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
 }
