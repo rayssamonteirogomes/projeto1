@@ -1,1 +1,141 @@
-# projeto1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Music Player By ByteWebster</title>
+    <link rel="stylesheet" href="radio.css">
+
+</head>
+<body>
+    <div class="player">
+        <div class="player__header">
+            <div class="player__img player__img--absolute slider">
+                <button class="player__button player__button--absolute--nw playlist">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+                </button>
+                <button class="player__button player__button--absolute--center play">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+                </button>
+                <div class="slider__content">
+                    <img class="img slider__img" src="https://linkstorage.linkfire.com/medialinks/images/75b3f52c-3825-4f71-9f86-1ba5ede247ff/artwork-440x440.jpg" alt="cover">
+                    <img class="img slider__img" src="https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/451/100x100/imagine-1586953710-4wJybAsS8x.jpg" alt="cover">
+                    <img class="img slider__img" src="https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/434/100x100/linked-1586953317-0BranYHgw8.jpg" alt="cover">
+                    <img class="img slider__img" src="https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/487/100x100/why-do-i-feat-bri-tolani-1586954592-AkIU1vSG9q.jpg" alt="cover">
+                    <img class="img slider__img" src="https://sound.peal.io/ps/covers/000/036/044/large/hqdefault.jpg?1569616162" alt="cover">
+                    <img class="img slider__img" src="https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/143/100x100/heroes-tonight-feat-johnning-1586946923-LsvZKuKHRf.jpg" alt="cover">
+                    <img class="img slider__img" src="https://linkstorage.linkfire.com/medialinks/images/7268dbaf-880f-4b40-aafe-0d45e278fe47/artwork-440x440.jpg" alt="cover">
+                </div>
+            </div>
+            <div class="player__controls">
+                <button class="player__button back">
+                    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+                </button>
+                <p class="player__context slider__context">
+                    <strong class="slider__name"></strong>
+                    <span class="player__title slider__title"></span>
+                </p>
+                <button class="player__button next">
+                    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+                </button>
+                <div class="progres">
+                    <div class="progres__filled"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="player__playlist list">
+            <li class="player__song">
+                <img class="player__img img" src="https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/286/100x100/make-me-move-feat-karra-1586948717-dTsA9So1cu.jpg" alt="Make Me Move (feat. KARRA)" title="Make Me Move (feat. KARRA)">
+                <p class="player__context">
+                    <b class="player__song-name">Make Me Move (feat. KARRA)</b>
+                    <span class="flex">
+                        <span class="player__title">Culture Code, KARRA</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./musicas/circles.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./imagens2/post malone.jfif" alt="cover">
+                <p class="player__context">
+                    <b class="player__song-name">circles</b>
+                    <span class="flex">
+                        <span class="player__title">Post Malone</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./musicas/malone.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./imagens2/aranha.jpg" alt="cover">
+                <p class="player__context">
+                    <b class="player__song-name"> Sunflower</b>
+                    <span class="flex">
+                        <span class="player__title">Post Malone, Swae Lee</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./musicas/bruninho.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./imagens2/bruninho.jpg" alt="cover">
+                <p class="player__context">
+                    <b class="player__song-name">The Lazy Song</b>
+                    <span class="flex">
+                        <span class="player__title">Bruno Mars</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./musicas/Die For You.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./imagens/dieforyou.jfif" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Die For You</b>
+                    <span class="flex">
+                        <span class="player__title">The Weeknd</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./musicas/direction.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./imagens2/onedirection.jpg" alt="cover">
+                <p class="player__context">
+                    <b class="player__song-name">Drag Me Down </b>
+                    <span class="flex">
+                        <span class="player__title">One Direction</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./musicas/baby.mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./imagens2/download.jfif" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Baby</b>
+                    <span class="flex">
+                        <span class="player__title">Justin Bieber</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="boa.mp3"></audio>
+              </li>
+              <li class="player__song">
+                  <img class="player__img img" src="" alt="cover">
+                  <p class="player__context ">
+                      <b class="player__song-name">Heat Waves</b>
+                      <span class="flex">
+                          <span class="player__title">Glass Animals</span>
+                          <span class="player__song-time"></span>
+                      </span>
+                  </p>
+            </li>
+        </ul>
+
+        
+    </div>
+    <script src="radio.js"></script>
+</body>
+</html>
